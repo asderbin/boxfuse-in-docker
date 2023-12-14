@@ -1,4 +1,4 @@
-FROM tomcat:9.0
+FROM tomcat:8.0
 WORKDIR /home
 RUN apt update
 RUN apt install default-jdk -y
